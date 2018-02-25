@@ -15,4 +15,14 @@
 
     <string name="open">Open</string>
     <string name="close">Close</string>
+
+    <string name="profile">My Profile</string>
+
+    <string name="Name_value">Name</string>
+    <string name="Age_value">Age</string>
+    <string name="Username_value">Username</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

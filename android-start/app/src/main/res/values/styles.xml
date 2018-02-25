@@ -16,4 +16,34 @@
         <item name="android:textColor">@color/colorTitle</item>
 
     </style>
+
+    <style name="TextStyle" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="LabelStyle" parent="TextStyle">
+        <item name="android:background">@color/grey</item>
+    </style>
+
+    <style name="CenteredTextStyle" parent="TextStyle">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="InputStyle" parent="CenteredTextStyle">
+        <item name="android:textColor">@color/blueViolet</item>
+    </style>
+
+    <style name="OutputStyle" parent="CenteredTextStyle">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="ButtonStyle" parent="CenteredTextStyle">
+        <item name="android:background">@color/grey</item>
+    </style>
+
+
 </resources>

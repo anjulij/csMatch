@@ -397,6 +397,16 @@ public class MainActivity extends AppCompatActivity
                 startActivity(new Intent(this, SignInActivity.class));
                 finish();
                 return true;
+            case R.id.profile:
+                this.startActivity( new Intent (this, ProfilePage.class));
+                finish();
+                return true;
+            case R.id.search:
+                this.startActivity(new Intent (this, SearchPage.class));
+                finish();
+                return true;
+            //case R.id.nav:
+            //    this.startActivity(new Intent(this, SearchPage.class));
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -410,10 +420,10 @@ public class MainActivity extends AppCompatActivity
         Toast.makeText(this, "Google Play Services error.", Toast.LENGTH_SHORT).show();
     }
 
-    public void onDrawerNav(View v ) {
-        Intent myIntent = new Intent( this, DrawerNav.class );
-        this.startActivity( myIntent );
-    }
+
+
+
+
 
 
 

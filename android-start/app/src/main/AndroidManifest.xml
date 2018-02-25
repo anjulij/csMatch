@@ -21,6 +21,14 @@
         <activity android:name=".DrawerNav">
         </activity>
 
+        <activity android:name=".ProfilePage">
+        </activity>
+
+        <activity android:name=".SearchPage">
+        </activity>
+
+
+
     </application>
 
 </manifest>
