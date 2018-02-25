@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.firebase.codelab.friendlychat;
 
-import android.util.Log;
+package com.google.firebase.codelab.csMatchChat;
 
-import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.iid.FirebaseInstanceIdService;
-import com.google.firebase.messaging.FirebaseMessaging;
+import android.support.test.rule.ActivityTestRule;
+import android.support.test.runner.AndroidJUnit4;
+import android.test.suitebuilder.annotation.LargeTest;
 
-public class MyFirebaseInstanceIdService {
+import org.junit.Rule;
+import org.junit.runner.RunWith;
 
-    private static final String TAG = "MyFirebaseIIDService";
-    private static final String FRIENDLY_ENGAGE_TOPIC = "friendly_engage";
+@RunWith(AndroidJUnit4.class)
+@LargeTest
+public class MainActivityEspressoTest {
 
-    /**
-     * The Application's current Instance ID token is no longer valid and thus a new one must be requested.
-     */
-    public void onTokenRefresh() {
-    }
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityRule =
+            new ActivityTestRule<>(MainActivity.class);
 
+    // Add instrumentation test here
 }

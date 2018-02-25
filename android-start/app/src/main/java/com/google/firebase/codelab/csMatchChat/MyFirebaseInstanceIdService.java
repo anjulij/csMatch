@@ -13,10 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.firebase.codelab.friendlychat;
+package com.google.firebase.codelab.csMatchChat;
 
-public class CodelabPreferences {
+public class MyFirebaseInstanceIdService {
 
-    public static final String FRIENDLY_MSG_LENGTH = "friendly_msg_length";
+    private static final String TAG = "MyFirebaseIIDService";
+    private static final String FRIENDLY_ENGAGE_TOPIC = "friendly_engage";
+
+    /**
+     * The Application's current Instance ID token is no longer valid and thus a new one must be requested.
+     */
+    public void onTokenRefresh() {
+    }
 
 }
