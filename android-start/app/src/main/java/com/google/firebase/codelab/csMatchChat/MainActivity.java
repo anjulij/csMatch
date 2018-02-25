@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    //TODO commit
     private static final String TAG = "MainActivity";
     public static final String MESSAGES_CHILD = "messages";
     private static final int REQUEST_INVITE = 1;
